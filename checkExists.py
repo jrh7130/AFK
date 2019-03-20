@@ -2,7 +2,7 @@ from subprocess import check_output, check_call
 from time import sleep
 import sys
 
-adb_path = r"C:\Android\platform-tools\adb"
+adb_path = "C:\Android\platform-tools\adb"
 
 def check_devices(timeout=10):
 	"""
